@@ -26,7 +26,7 @@
 ・プレイヤーの攻撃パターンが少なく、攻撃の順番を工夫させることが出来ませんでした。
 ・剣の軌跡以外のエフェクトを用意することが出来ず、攻撃を繋げている感が不足していました。
 
-◆その他
+◆動画
 Youtubeのリンクです。https://youtu.be/p6Y_-X6Uvc0
 
 
@@ -49,5 +49,9 @@ Youtubeのリンクです。https://youtu.be/p6Y_-X6Uvc0
 ・高いダメージを与えるためのスキルたちを全て使わなければいけない場面が存在しており、スキルの使い分けを
   意識させることが出来ませんでした。。
 
-◆その他
+◆動画
 Youtubeのリンクです。https://youtu.be/Xg7gD6Vs5xA
+
+
+◆その他の作品================================================
+Youtubeのリンクです。https://youtube.com/playlist?list=PLj0Cq42DUVEXHjmQUpmFwFPt0BoaMsecv
