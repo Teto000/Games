@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main\Object">
+      <UniqueIdentifier>{5b6ee70b-eba7-4b10-8fde-45451bee8912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Object2D">
+      <UniqueIdentifier>{636badd5-5eb2-4a47-a7f2-b641656aaf2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Object2D\Number">
+      <UniqueIdentifier>{bd2bf617-3d31-42e5-a421-d2e71f3300b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Object2D\Gauge">
+      <UniqueIdentifier>{d71e9d37-6968-4db4-b964-ec06ec744310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Object3D">
+      <UniqueIdentifier>{a3762304-c7ac-46ad-bd8b-90ab12135ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Mesh">
+      <UniqueIdentifier>{18c392cf-e225-4c8e-b3d2-72c751f14079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\ObjectX">
+      <UniqueIdentifier>{f9267d4d-4bd4-44ef-86f4-7ad0a156c89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Billboard">
+      <UniqueIdentifier>{9b39766b-3ae8-4f31-867f-f483ee60f05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Application">
+      <UniqueIdentifier>{751af654-b81f-4fcd-acc0-3e8398b9e557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Application\Scene">
+      <UniqueIdentifier>{fb42e464-c515-4f0c-b5f8-50ebba0afc0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Application\Input">
+      <UniqueIdentifier>{5f159fc1-a5b8-445a-b6a1-60c705f3ac63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Billboard\Number">
+      <UniqueIdentifier>{c72546be-07fd-4193-8965-395ac95857b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Billboard\Bullet">
+      <UniqueIdentifier>{cdfea326-34a0-43fc-8b26-8c2afe5188e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Application\Camera">
+      <UniqueIdentifier>{3dd10990-2c06-45bf-8f9c-63b31dce8f8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>Main\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Main\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>Main\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>Main\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Main\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="input_joypad.cpp">
+      <Filter>Main\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>Main\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_proc.cpp">
+      <Filter>Main\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Main\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Main\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Main\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Main\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Main\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="object2D.cpp">
+      <Filter>Main\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="object3d.cpp">
+      <Filter>Main\Object\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="objectX.cpp">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClCompile>
+    <ClCompile Include="meshfield.cpp">
+      <Filter>Main\Object\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Main\Object\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>Main\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="input_keyboard.cpp">
+      <Filter>Main\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>Main\Object\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>Main\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>Main\Object\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="gauge.cpp">
+      <Filter>Main\Object\Object2D\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>Main\Object\Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>Main\Object\Object2D\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="combo.cpp">
+      <Filter>Main\Object\Object2D\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="fream.cpp">
+      <Filter>Main\Object\Object2D\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.cpp">
+      <Filter>Main\Object\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="hp.cpp">
+      <Filter>Main\Object\Object2D\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="motion.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClCompile>
+    <ClCompile Include="damage.cpp">
+      <Filter>Main\Object\Billboard\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="num_board.cpp">
+      <Filter>Main\Object\Billboard\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Main\Object\Billboard\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="orbit.cpp">
+      <Filter>Main\Object\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Main\Object\Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>Main\Object\Object2D\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Main\Application\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="title_camera.cpp">
+      <Filter>Main\Application\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>Main\Object\Object2D\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="tutoral.cpp">
+      <Filter>Main\Application\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>Main\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Main\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>Main\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>Main\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Main\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="input_joypad.h">
+      <Filter>Main\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>Main\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_proc.h">
+      <Filter>Main\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Main\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Main\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Main\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Main\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Main\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="object2D.h">
+      <Filter>Main\Object\Object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="object3d.h">
+      <Filter>Main\Object\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="objectX.h">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClInclude>
+    <ClInclude Include="meshfield.h">
+      <Filter>Main\Object\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Main\Object\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>Main\Object\Object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="input_keyboard.h">
+      <Filter>Main\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>Main\Object\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>Main\Object\Object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>Main\Object\Object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="gauge.h">
+      <Filter>Main\Object\Object2D\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="hp.h">
+      <Filter>Main\Object\Object2D\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>Main\Object\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>Main\Object\Object2D\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="combo.h">
+      <Filter>Main\Object\Object2D\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="fream.h">
+      <Filter>Main\Object\Object2D\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>Main\Object\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="motion.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>Main\Object\ObjectX</Filter>
+    </ClInclude>
+    <ClInclude Include="damage.h">
+      <Filter>Main\Object\Billboard\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="num_board.h">
+      <Filter>Main\Object\Billboard\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Main\Object\Billboard\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="orbit.h">
+      <Filter>Main\Object\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Main\Object\Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>Main\Object\Object2D\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Main\Application\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="title_camera.h">
+      <Filter>Main\Application\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>Main\Object\Object2D\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>Main\Application\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
